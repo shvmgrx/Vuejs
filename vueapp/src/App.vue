@@ -1,17 +1,20 @@
 <template>
   <div id="app">
+    <!-- Testing Users component
     <test msg="No man"></test>
+    -->
+    <users></users>
   </div>
 </template>
 
 <script>
 import Test from './components/test'
-
+import Users from './components/users'
 
 export default {
   name: 'app',
   components: {
-    Test
+    Test, Users
   }
 }
 </script>
